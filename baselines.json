@@ -1,0 +1,32 @@
+{
+  "claude-3.5": {
+    "model_identity": "claude-3.5",
+    "calibrated_wattage": 325,
+    "efficiency_summary": {
+      "total_audit_emissions_gCO2e": 0.000105,
+      "generalization_variance_penalty": 0.045,
+      "corrected_utility_score": 84.3,
+      "hype_to_utility_index": 802857.14
+    }
+  },
+  "gemini-1.5": {
+    "model_identity": "gemini-1.5",
+    "calibrated_wattage": 350,
+    "efficiency_summary": {
+      "total_audit_emissions_gCO2e": 0.000215,
+      "generalization_variance_penalty": 0.182,
+      "corrected_utility_score": 60.5,
+      "hype_to_utility_index": 281395.35
+    }
+  },
+  "llama-3.1-70b": {
+    "model_identity": "llama-3.1-70b",
+    "calibrated_wattage": 325,
+    "efficiency_summary": {
+      "total_audit_emissions_gCO2e": 0.000452,
+      "generalization_variance_penalty": 0.071,
+      "corrected_utility_score": 72.1,
+      "hype_to_utility_index": 159513.27
+    }
+  }
+}
